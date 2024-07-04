@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/img4.avif";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,29 +31,18 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Anime Recommendation System",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Enhance User Experience: Provide tailored anime recommendations to users, helping them discover new shows they are likely to enjoy.Combine Filtering Techniques: Utilize both content-based and collaborative filtering methods to improve recommendation accuracy and relevance.",
+    url: "https://github.com/YashHingad/Anime-Recommedation-System",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Job Application Form",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "The Job Application Form is a dynamic, interactive web application built using React. It simplifies the process of applying for a job by providing a user-friendly interface with conditional logic, validation rules, and a summary display upon submission. The form is designed to collect comprehensive information about the applicant, ensuring that potential employers receive all the necessary details.",
+    url: "https://github.com/YashHingad/Job-Application-Form",
   },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+ 
 ];
 
 const Portfolio = () => {
@@ -64,8 +53,9 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }}
             alt={imageAltText}
+            
           />
         </div>
         <div className="container">

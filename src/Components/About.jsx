@@ -16,27 +16,27 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/img1.avif";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "black and blue abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a passionate and dedicated software developer specializing in the MERN (MongoDB, Express.js, React, Node.js) stack. With a strong foundation in both front-end and back-end technologies, I excel at building robust, scalable, and user-friendly web applications. ";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
+  "Web Development",
   "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "React",
+  "Javascript",
+  "NodeJs",
+  "Express",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "My experience spans across various projects, from creating dynamic single-page applications to developing complex server-side logic and database management systems.";
 
 const About = () => {
   return (

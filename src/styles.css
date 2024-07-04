@@ -12,6 +12,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 div#main {
@@ -122,4 +123,61 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+
+/* Ensure images and content fit the container */
+.background {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Ensure content is centered and styled */
+.content-container {
+  background-color: white;
+  width: 50%;
+  padding: 4rem;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+/* Adjust margins and padding for specific elements */
+.content {
+  padding: 0 2rem;
+}
+
+/* Style the list of education items */
+.education-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style each education item */
+.education-item {
+  background-color: white;
+  width: 100%;
+  padding: 2rem;
+  margin: 1rem auto;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+/* Style each detail within education items */
+.education-item > div {
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+@keyframes slideInLeft {
+  0%{
+    transform: translateX(-10);
+  }
+  100%{
+    transform: translateX(0);
+  }
 }
